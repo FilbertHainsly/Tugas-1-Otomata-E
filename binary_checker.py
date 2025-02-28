@@ -10,7 +10,7 @@ def is_valid_binary(binary_string, valid_set):
 
 S = {"00", "10", "010", "01001"}
 
-binary_string = input("Masukkan string biner: ")
+binary_string = input("Masukkan input nilai biner: ")
 
 if is_valid_binary(binary_string, S):
     print("Valid")
