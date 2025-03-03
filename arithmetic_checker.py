@@ -111,4 +111,4 @@ class ArithmeticChecker:
 if __name__ == '__main__':
 	checker = ArithmeticChecker()
 	sentence = str(input('Sentence: '))
-	print('Valid' if checker.check(sentence) else 'Tidak Valid')
+	print('Valid' if checker.check(sentence) else 'Not Valid')
